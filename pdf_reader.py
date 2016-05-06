@@ -8,7 +8,7 @@ import re
 
 i = 0
 os.system("rm /Users/nakamurajun/pdf_reader/image/*.jpg")
-filename = sys.argv[1].replace(" ","\ ").replace("(","\(")
+filename = sys.argv[1].replace(" ","\ ").replace("(","\(").replace(")","\)")
 pwd = commands.getoutput('pwd')
 os.system("cp "+pwd+"/"+filename+" "+ "/Users/nakamurajun/pdf_reader/image")
 os.chdir("/Users/nakamurajun/pdf_reader/image")
