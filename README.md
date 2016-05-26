@@ -4,10 +4,10 @@
 ```python pdf_reader.py [filename]```
 
 ## 必要ライブラリ
-* python
-opencv
+- python
+  - opencv
 
-* ruby
-origami
+- ruby
+  - origami
 
 
